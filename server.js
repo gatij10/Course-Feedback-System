@@ -16,6 +16,6 @@ app.use('/api/teacherauth', require('./routes/teacherauth')); //teacher login an
 app.use('/api/score', require('./routes/score')); //updates score and count
 app.use('/api/courses', require('./routes/courses')); //gets all the courses from database
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));

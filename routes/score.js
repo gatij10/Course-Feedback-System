@@ -28,7 +28,7 @@ router.post('/', async (req, res) => {
     };
 
     const result = await axios.post(
-      'http://localhost:5000/api/result',
+      'http://localhost:8080/api/result',
       { feedback },
       config
     );
