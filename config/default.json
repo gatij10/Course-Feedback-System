@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://gatij10:gatij10@coursefeedback.csn0m.mongodb.net/<dbname>CourseFeedback?retryWrites=true&w=majority",
+  "jwtSecret": "thisisasecret"
+}
